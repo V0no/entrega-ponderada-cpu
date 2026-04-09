@@ -59,3 +59,9 @@ O projeto acompanha um esquema prático para validar a simulação em cadeia fun
 2. **Endereço `0x01`:** `010` [MUL] - Envia a requisição de multiplicar o acumulador por **2**. *(AC altera para `10`)*.
 3. **Endereço `0x02`:** `000` [ADD] - Injeta mais operandos de base no circuito, com a quantia sendo **14**. *(AC vira `24`)*.
 4. **Endereço `0x03`:** `101` [SHR] - Desliza os chips todos na escala binária subtraindo posições. Efetua tecnicamente uma divisão exata por 2. Operando da memória pode ser arbitrário ou nulo. *(AC final: `12`)*.
+
+
+
+## Vídeo
+
+[Link do vídeo](https://drive.google.com/file/d/1Ck0ZIt5H9kLvZF0p-Z5CU-k0rtXyjaJU/view?usp=sharing)
